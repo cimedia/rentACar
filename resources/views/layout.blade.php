@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
         <div class="pull-left">
-            <a class="btn btn-info" href="/"> Main page</a>
+            <a class="btn btn-info" href="{{ Url('/') }}"> Main page</a>
             <a class="btn btn-info" href="{{ route('cars.index') }}"> Cars</a>
             <a class="btn btn-info" href="{{ route('clients.index') }}"> Clients</a>
             <a class="btn btn-info" href="{{ route('rentHistory.index') }}"> Rent history</a>
